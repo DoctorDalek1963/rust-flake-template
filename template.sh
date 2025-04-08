@@ -5,8 +5,8 @@
 
 crate_name=""
 repo_name=""
-author_name=""
-author_email=""
+author_name="Dyson Dyson"
+author_email="dyson.dyson@icloud.com"
 project_description=""
 nixpkgs_branch="24.11"
 
