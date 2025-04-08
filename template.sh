@@ -28,5 +28,6 @@ echo "=== REMEMBER ==="
 echo "- Before first push, go to codecov.io and setup this repo"
 echo "- Add CACHIX_AUTH_TOKEN and CODECOV_TOKEN to Actions repo secrets"
 echo "- Get the correct link for the codecov badge"
+echo "- Enable GitHub Pages"
 
 rm "$0"
