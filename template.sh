@@ -8,6 +8,7 @@ repo_name=""
 author_name=""
 author_email=""
 project_description=""
+nixpkgs_branch="24.11"
 
 # === STOP HERE ========
 
@@ -20,6 +21,7 @@ sd -F "@REPO_NAME@" "$repo_name" "${files[@]}"
 sd -F "@AUTHOR_NAME@" "$author_name" "${files[@]}"
 sd -F "@AUTHOR_EMAIL@" "$author_email" "${files[@]}"
 sd -F "@PROJECT_DESCRIPTION@" "$project_description" "${files[@]}"
+sd -F "@NIXPKGS_BRANCH@" "$nixpkgs_branch" "${files[@]}"
 sd -F "@DOCS_CRATE_NAME@" "$docs_crate_name" "${files[@]}"
 
 echo "=== REMEMBER ==="

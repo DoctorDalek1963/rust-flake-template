@@ -2,7 +2,7 @@
   description = "@PROJECT_DESCRIPTION@";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-@NIXPKGS_BRANCH@";
     flake-parts.url = "github:hercules-ci/flake-parts";
 
     pre-commit-hooks = {
